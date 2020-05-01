@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url(https://zzzmario.github.io/dark-discord/src/source.css);
+
+:root {
+    --title-gradient:linear-gradient(to right,#37b1da 0,#c948cd 50%,#cce335 100%);
+    --primary-color:#75a00d;
+    --outline-color:#0a0a0a;
+    --outline-lightcolor:#303030;
+    --app-color:#0b0b0b;
+    --channels-color:#111;
+    --channels-darker:#0c0c0c;
+    --channels-selected:#191919;
+    --channels-text-selected:#9fca2b;
+    --chat-color:#0b0b0b;
+    --mention-color:#1f1f1f;
+    --scrollbar-bg:#2d2d2d;
+    --scrollbar-thumb:#414141;
+    --text-input:#191919;
+    --dropdown-color:#232323;
+    --link-color:#96c83c;
+    --channel-radius:5px;
+    --text-color:#cbcbcb;
+    --text-darker:#b0b0b0;
+    --font:'Raleway',Helvetica,Arial,sans-serif;
+    --important-notification-l:#f84747;
+    --important-notification:#d12020;
+}
+
+*{
+  	font-size: 100%;
+    font-family:var(--font)!important
+  }
+
+.winButton-iRh8-Z{
+    top:2px!important
+}
+.wordmark-2iDDfm{
+    opacity:1.0;
+    font-family:'Raleway'
+}
+.wordmark-2iDDfm::before{
+    content:'game';
+    font-size:14px;
+    z-index:1000;
+    position:fixed;
+    display:inline-block;
+    color:var(--text-color);
+    height:auto;
+  top:12px;
+    left:12px;
+    background-color:transparent
+}
+.mention-1f5kbO {
+    background-color: var(--primary-color)!important;
+}
+.wordmark-2iDDfm::after{
+    content:'sense';
+    font-size:14px;
+    z-index:1000;
+    position:fixed;
+    display:inline-block;
+    color:var(--primary-color);
+    height:auto;
+  top:12px;
+    left:52px;
+    background-color:transparent
+}
+
+
+.winButtonClose-1HsbF-:hover{
+    background-color: transparent;
+}
+
+.winButtonMinMax-PBQ2gm:hover{
+    background-color: transparent;
+}
+.wordmark-2iDDfm svg{
+    display:none
+}
+
+.wrapper-1Rf91z{
+	background-color:#191919;
+}
+
+
+
+.appMount-3lHmkl{
+    left:6px;
+    top:6px;
+    height:calc(100vh - 12px);
+    width:calc(100vw - 12px);
+    box-shadow:0 0 0 1px #3c3c3c,0 0 0 4px #282828,0 0 0 5px #3c3c3c,0 0 0 6px #0a0a0a;
+    background-color:var(--channels-color)
+}
+.typeWindows-1za-n7{
+    height:25px;
+    background:var(--primary-color);
+    margin-top:1px!important;
+    margin-left:1px;
+    margin-right:1px;
+    background:var(--title-gradient);
+    box-shadow:inset 0 -23px 0 0 var(--app-color),inset 0 -24px 0 0 rgba(0,0,0,0.5);
+    opacity:1.0;
+    z-index:50;
+    border-bottom:1px
+}
+
+.scrollableContainer-2NUZem {
+    background-color: var(--text-input);
+}
+
+.scrollableContainer-2NUZem {
+    border: 1px solid #3c3c3c;
+  border-radius: 0;
+}
+
+.guildsWrapper .guildsAdd-21_Id{
+    border-radius:0;
+    background:var(--chat-color);
+    border:1px dashed var(--outline-lightcolor);
+    color:var(--outline-lightcolor)
+}
+.guildsWrapper-1Rf91z .guildsAdd-21_Id:hover{
+    color:var(--text-color);
+    border-color:var(--text-color)
+}
+.guildsWrapper-1Rf91z .guildsAdd-21_Id-inner{
+    top:-2px
+}
+.guildsWrapper-1Rf91z .guilds-1q_RqH .guilds-1q_RqH+.guilds-1q_RqH{
+    margin-bottom:25px;
+    margin-top:25px
+}
+.guildInner-3DSoA4{
+    border-radius:0!important
+}
+.guildsWrapper-1Rf91z .guilds-1q_RqH .guild-1EfMGQ+.guild-1EfMGQ{
+    margin-top:25px
+}
+.guildsWrapper-1Rf91z .guilds-1q_RqH ..friendsOnline-_wi_fM{
+    padding-bottom:10px;
+    font-size:9px
+}
+.guildsWrapper-1Rf91z .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before{
+    box-shadow:0 1px 0 0 #303030,-1px 2px 0 0 #000,0 -1px 0 0 #303030,-1px -2px 0 0 #000;
+    background:var(--channels-color);
+    border-radius:0;
+    height:70px;
+    margin-top:-35px;
+    width:75px;
+    -webkit-transition:none;
+    transition:none
+}
+.guildsWrapper-1Rf91z .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4{
+    background:var(--chat-color)!important
+}
+.guildsWrapper-1Rf91z .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq .guildInner-3DSoA4 a{
+    background-color:var(--primary-color)!important;
+    transition:all .3s ease
+}
+.guildsWrapper-1Rf91z .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq .guildInner-3DSoA4{
+    background-color:var(--primary-color)!important;
+    transition:all .3s ease
+}
+.guildInner-3DSoA4{
+    background-color:var(--primary-color);
+    border-radius:var(--channel-radius)!important;
+    transition:all .3s ease
+}
+.guildInner-3DSoA4:hover{
+    background-color:var(--primary-color)!important;
+    transition:all .3s ease
+}
+.guild-1EfMGQ.active .guildInner-3DSoA4{
+    background:var(--primary-color)!important
+}
+.guildsWrapper-1Rf91z .guildseparator-1X4GQ1{
+    display:none
+}
+
+.scrollerWrap-1IAIlv {
+    width: auto;
+    border-right: 1px solid #3c3c3c;
+}
+
+.guilds-1SWlCJ .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar {
+  display: none;
+}
+
+.listItem-2P_4kh {
+    padding: 4px 0;
+    margin: 0;
+}
+
+.powercord-quickcss {
+    --editor-height: 750px !important;
+}
+
+.container-3baos1, .container-3baos1 .avatar-SmRMf2 {
+    border: 1px solid #333333;
+    border-left: none;
+    border-bottom: none;
+}
+
+.container-1giJp5 {
+    border: 1px solid #333333;
+    border-left: none;
+   	border-bottom: none;
+}
+
+.privateChannels-1nO12o {
+    border: 1px solid #333333;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+}
+
+.typeWindows-1za-n7 {
+    border-bottom: 1px solid #333333 !important;
+}
+
+.container-PNkimc {
+    border-right: 1px solid #333333;
+}
+
+.membersWrap-2h-GB4 {
+    border-left: 1px solid #333333;
+}
+
+.container-1r6BKw.themed-ANHk51 {
+    border-bottom: 1px solid #333333;
+}
+
+.clickable-2ap7je .header-2o-2hj {
+    border-bottom: 1px solid #333333;
+}
+
+.listItem-2P_4kh.selected {
+    background: var(--background-secondary);
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+}
+
+.pill-31IEus {
+    display: none;
+}
+
+.avatar-1BDn8e {
+    border-radius: 10px;
+}
+
+.wrapper-3t9DeA foreignObject,
+.avatarHint-1qgaV3 foreignObject{
+    mask: none
+}
+
+.wrapper-3t9DeA img,
+.avatarHintInner-Dco91E,
+.avatar-1BDn8e{
+    border-radius: 5px;
+}
+
+.svg-1X37T1 foreignObject {
+  mask: none;
+    border-radius: 10px;
+}
