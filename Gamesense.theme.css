@@ -13,7 +13,27 @@
 
 :root {
     --title-gradient:linear-gradient(to right,#37b1da 0,#c948cd 50%,#cce335 100%);
+    --primary-color:#75a00d;
+    --outline-color:#0a0a0a;
+    --outline-lightcolor:#303030;
+    --app-color:#0b0b0b;
+    --channels-color:#111;
+    --channels-darker:#0c0c0c;
+    --channels-selected:#191919;
+    --channels-text-selected:#9fca2b;
+    --chat-color:#0b0b0b;
+    --mention-color:#1f1f1f;
+    --scrollbar-bg:#2d2d2d;
+    --scrollbar-thumb:#414141;
+    --text-input:#191919;
+    --dropdown-color:#232323;
+    --link-color:#96c83c;
+    --channel-radius:5px;
+    --text-color:#cbcbcb;
+    --text-darker:#b0b0b0;
     --font:'Verdana',Helvetica,Arial,sans-serif;
+    --important-notification-l:#f84747;
+    --important-notification:#d12020;
     --background-primary: #141414 !important;
     --background-secondary: #111111 !important;
     --background-secondary-alt: #292929 !important;
