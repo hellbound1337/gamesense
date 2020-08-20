@@ -261,3 +261,12 @@
 .sidebarRegionScroller-3MXcoP {
    border-right: 1px solid #333333;
 }
+
+.platform-osx .scroller-2TZvBN {
+   border-right: 1px solid #333333;
+}
+
+.typeMacOS-3EmCyP {
+    border-right: 1px solid #333333;
+    width: 71px !important;
+}
