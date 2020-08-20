@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url(https://raw.githack.com/hellbound1337/dark-discord/master/src/source.css);
 
-* {
-   font-size: 100%;
+#app-mount {
    font-family: var(--font) !important;
 }
 
 .winButton-iRh8-Z {
    top: 2px !important;
 }
+
 .wordmark-2iDDfm {
    opacity: 1;
-   font-family: 'Raleway';
+   font-family: 'Raleway' !important;
 }
+
 .wordmark-2iDDfm::before {
    content: 'game';
    font-size: 14px;
@@ -25,9 +26,11 @@
    left: 12px;
    background-color: transparent;
 }
+
 .mention-1f5kbO {
    background-color: var(--primary-color) !important;
 }
+
 .wordmark-2iDDfm::after {
    content: 'sense';
    font-size: 14px;
@@ -48,6 +51,7 @@
 .winButtonMinMax-PBQ2gm:hover {
    background-color: transparent;
 }
+
 .wordmark-2iDDfm svg {
    display: none;
 }
@@ -64,6 +68,7 @@
    box-shadow: 0 0 0 1px #3c3c3c, 0 0 0 4px #282828, 0 0 0 5px #3c3c3c, 0 0 0 6px #0a0a0a;
    background-color: var(--channels-color);
 }
+
 .typeWindows-1za-n7 {
    height: 26px;
    background: var(--primary-color);
@@ -92,27 +97,34 @@
    border: 1px dashed var(--outline-lightcolor);
    color: var(--outline-lightcolor);
 }
+
 .guildsWrapper-1Rf91z .guildsAdd-21_Id:hover {
    color: var(--text-color);
    border-color: var(--text-color);
 }
+
 .guildsWrapper-1Rf91z .guildsAdd-21_Id-inner {
    top: -2px;
 }
+
 .guildsWrapper-1Rf91z .guilds-1q_RqH .guilds-1q_RqH + .guilds-1q_RqH {
    margin-bottom: 25px;
    margin-top: 25px;
 }
+
 .guildInner-3DSoA4 {
    border-radius: 0 !important;
 }
+
 .guildsWrapper-1Rf91z .guilds-1q_RqH .guild-1EfMGQ + .guild-1EfMGQ {
    margin-top: 25px;
 }
-.guildsWrapper-1Rf91z .guilds-1q_RqH ..friendsOnline-_wi_fM {
+
+.guildsWrapper-1Rf91z .guilds-1q_RqH .friendsOnline-_wi_fM {
    padding-bottom: 10px;
    font-size: 9px;
 }
+
 .guildsWrapper-1Rf91z .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before {
    box-shadow: 0 1px 0 0 #303030, -1px 2px 0 0 #000, 0 -1px 0 0 #303030, -1px -2px 0 0 #000;
    background: var(--channels-color);
@@ -123,29 +135,36 @@
    -webkit-transition: none;
    transition: none;
 }
+
 .guildsWrapper-1Rf91z .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4 {
    background: var(--chat-color) !important;
 }
+
 .guildsWrapper-1Rf91z .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq .guildInner-3DSoA4 a {
    background-color: var(--primary-color) !important;
    transition: all 0.3s ease;
 }
+
 .guildsWrapper-1Rf91z .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq .guildInner-3DSoA4 {
    background-color: var(--primary-color) !important;
    transition: all 0.3s ease;
 }
+
 .guildInner-3DSoA4 {
    background-color: var(--primary-color);
    border-radius: var(--channel-radius) !important;
    transition: all 0.3s ease;
 }
+
 .guildInner-3DSoA4:hover {
    background-color: var(--primary-color) !important;
    transition: all 0.3s ease;
 }
+
 .guild-1EfMGQ.active .guildInner-3DSoA4 {
    background: var(--primary-color) !important;
 }
+
 .guildsWrapper-1Rf91z .guildseparator-1X4GQ1 {
    display: none;
 }
