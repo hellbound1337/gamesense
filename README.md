@@ -6,7 +6,7 @@ A requested theme based on gamesense's design.
 - Powercord: `git clone https://github.com/hellbound1337/gamesense/`
 
 # Preview
-<img src="https://i.imgur.com/onzZLXA.png"/>
+<img src="https://i.imgur.com/WgEeYMa.png"/>
 
 # Support 
 - [Support Server](https://discord.gg/pCc7q4Z)
