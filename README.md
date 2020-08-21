@@ -1,4 +1,4 @@
-# Gamesense
+# Gamesense [![CodeFactor](https://www.codefactor.io/repository/github/hellbound1337/gamesense/badge)](https://www.codefactor.io/repository/github/hellbound1337/gamesense)
 A requested theme based on gamesense's design.
 
 # Downloads
