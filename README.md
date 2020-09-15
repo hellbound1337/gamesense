@@ -7,8 +7,3 @@ A requested theme based on gamesense's design.
 
 # Preview
 <img src="https://i.imgur.com/WgEeYMa.png"/>
-
-# Support 
-- [Support Server](https://discord.gg/pCc7q4Z)
-- hellbound#9999
-
